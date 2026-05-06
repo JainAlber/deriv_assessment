@@ -1,0 +1,58 @@
+[
+  {
+    "issue_id": "q_001",
+    "severity": "info",
+    "issue_type": "duplicate_content",
+    "entities": [],
+    "source_content_ids": [
+      "c_19d6004a47_h0",
+      "c_88016c8933_h0"
+    ],
+    "details": "c_19d6004a47_h0 duplicates c_88016c8933_h0"
+  },
+  {
+    "issue_id": "q_002",
+    "severity": "info",
+    "issue_type": "duplicate_content",
+    "entities": [],
+    "source_content_ids": [
+      "c_19d6004a47_h1",
+      "c_88016c8933_h1"
+    ],
+    "details": "c_19d6004a47_h1 duplicates c_88016c8933_h1"
+  },
+  {
+    "issue_id": "q_003",
+    "severity": "info",
+    "issue_type": "duplicate_content",
+    "entities": [],
+    "source_content_ids": [
+      "c_19d6004a47_h2",
+      "c_88016c8933_h2"
+    ],
+    "details": "c_19d6004a47_h2 duplicates c_88016c8933_h2"
+  },
+  {
+    "issue_id": "q_004",
+    "severity": "warning",
+    "issue_type": "unresolved_entity",
+    "entities": [
+      "EUR/USD",
+      "United States"
+    ],
+    "source_content_ids": [],
+    "details": "Entities EUR/USD and United States have low resolution confidence (0.9)"
+  },
+  {
+    "issue_id": "q_005",
+    "severity": "info",
+    "issue_type": "ungrounded_claim",
+    "entities": [
+      "EUR/USD"
+    ],
+    "source_content_ids": [
+      "c_88016c8933_main"
+    ],
+    "details": "Sentiment evidence for EUR/USD does not quote a real source span"
+  }
+]

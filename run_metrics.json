@@ -1,0 +1,80 @@
+{
+  "started_at": "2026-05-06T02:40:02.681889+00:00",
+  "finished_at": "2026-05-06T02:40:37.966782+00:00",
+  "stage_timings": {
+    "INIT": {
+      "started_at": "2026-05-06T02:40:02.682757+00:00",
+      "finished_at": "2026-05-06T02:40:02.683152+00:00"
+    },
+    "SOURCES_LOADED": {
+      "started_at": "2026-05-06T02:40:02.683239+00:00",
+      "finished_at": "2026-05-06T02:40:02.683715+00:00"
+    },
+    "CONTENT_FETCHED": {
+      "started_at": "2026-05-06T02:40:02.683774+00:00",
+      "finished_at": "2026-05-06T02:40:30.580079+00:00"
+    },
+    "CONTENT_EXTRACTED": {
+      "started_at": "2026-05-06T02:40:30.580249+00:00",
+      "finished_at": "2026-05-06T02:40:30.580390+00:00"
+    },
+    "CONTENT_NORMALISED": {
+      "started_at": "2026-05-06T02:40:30.580473+00:00",
+      "finished_at": "2026-05-06T02:40:30.582623+00:00"
+    },
+    "ENTITIES_EXTRACTED": {
+      "started_at": "2026-05-06T02:40:30.582719+00:00",
+      "finished_at": "2026-05-06T02:40:31.756632+00:00"
+    },
+    "ENTITIES_RESOLVED": {
+      "started_at": "2026-05-06T02:40:31.756740+00:00",
+      "finished_at": "2026-05-06T02:40:31.758384+00:00"
+    },
+    "ENTITY_SENTIMENT_SCORED": {
+      "started_at": "2026-05-06T02:40:31.758511+00:00",
+      "finished_at": "2026-05-06T02:40:33.090761+00:00"
+    },
+    "QA_AND_CONFLICTS_CHECKED": {
+      "started_at": "2026-05-06T02:40:33.090836+00:00",
+      "finished_at": "2026-05-06T02:40:33.637275+00:00"
+    },
+    "REPORTS_GENERATED": {
+      "started_at": "2026-05-06T02:40:33.637328+00:00",
+      "finished_at": "2026-05-06T02:40:37.966698+00:00"
+    },
+    "RESULTS_FINALISED": {
+      "started_at": "2026-05-06T02:40:37.966776+00:00"
+    }
+  },
+  "source_latency_seconds": {
+    "https://finance.yahoo.com/quote/EURUSD%3DX/": 1.805,
+    "https://finance.yahoo.com/markets/": 1.607,
+    "https://www.federalreserve.gov/newsevents/pressreleases.htm": 0.904,
+    "https://www.imf.org/en/News": 8.1,
+    "https://www.reuters.com/markets/currencies/": 6.833
+  },
+  "extraction_errors": [
+    {
+      "source_url": "https://www.imf.org/en/News",
+      "stage": "fetch",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.imf.org/en/News",
+      "attempts": 3
+    },
+    {
+      "source_url": "https://www.reuters.com/markets/currencies/",
+      "stage": "fetch",
+      "error": "HTTPError: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/markets/currencies/",
+      "attempts": 3
+    }
+  ],
+  "extraction_error_rate": 0.4,
+  "sources_attempted": 5,
+  "sources_succeeded": 3,
+  "content_records": 14,
+  "entities_total": 3,
+  "entity_resolution_confidence_distribution": {
+    "0.0-0.6": 0,
+    "0.6-0.8": 0,
+    "0.8-1.0": 3
+  }
+}

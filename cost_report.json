@@ -1,0 +1,41 @@
+{
+  "model": "llama-3.3-70b-versatile",
+  "provider": "groq",
+  "price_input_per_million_usd": 0.59,
+  "price_output_per_million_usd": 0.79,
+  "total_llm_calls": 8,
+  "total_estimated_input_tokens": 8482,
+  "total_estimated_output_tokens": 1911,
+  "estimated_input_cost_usd": 0.005004,
+  "estimated_output_cost_usd": 0.00151,
+  "estimated_total_cost_usd": 0.006514,
+  "estimated_cost_per_source_usd": 0.002171,
+  "estimated_cost_per_entity_usd": 0.002171,
+  "by_stage": {
+    "ENTITIES_EXTRACTED": {
+      "calls": 1,
+      "input_tokens": 1053,
+      "output_tokens": 334,
+      "errors": 0
+    },
+    "ENTITY_SENTIMENT_SCORED": {
+      "calls": 3,
+      "input_tokens": 1366,
+      "output_tokens": 317,
+      "errors": 0
+    },
+    "QA_AND_CONFLICTS_CHECKED": {
+      "calls": 1,
+      "input_tokens": 725,
+      "output_tokens": 138,
+      "errors": 0
+    },
+    "REPORTS_GENERATED": {
+      "calls": 3,
+      "input_tokens": 5338,
+      "output_tokens": 1122,
+      "errors": 0
+    }
+  },
+  "deduplicated_content_count": 3
+}

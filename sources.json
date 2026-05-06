@@ -1,0 +1,9 @@
+{
+  "sources": [
+    "https://finance.yahoo.com/quote/EURUSD%3DX/",
+    "https://finance.yahoo.com/markets/",
+    "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+    "https://www.imf.org/en/News",
+    "https://www.reuters.com/markets/currencies/"
+  ]
+}

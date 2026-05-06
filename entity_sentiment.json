@@ -1,0 +1,47 @@
+[
+  {
+    "entity_id": "e_000_eur_usd",
+    "canonical_name": "EUR/USD",
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "confidence": 0.1,
+    "evidence": [
+      {
+        "content_id": "c_88016c8933_main",
+        "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX/",
+        "source_span": "https://finance.yahoo.com/quote/EURUSD%3DX/",
+        "reason": "LLM returned no usable evidence items"
+      }
+    ]
+  },
+  {
+    "entity_id": "e_001_federal_reserve",
+    "canonical_name": "Federal Reserve",
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "confidence": 0.2,
+    "evidence": [
+      {
+        "content_id": "c_04c4092bbc_main",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+        "source_span": "The Federal Reserve, the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system.",
+        "reason": "The text is a factual description of the Federal Reserve's role and does not express a clear opinion or sentiment."
+      }
+    ]
+  },
+  {
+    "entity_id": "e_002_united_states",
+    "canonical_name": "United States",
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "confidence": 0.2,
+    "evidence": [
+      {
+        "content_id": "c_04c4092bbc_main",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+        "source_span": "the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system",
+        "reason": "The text does not express a clear opinion or emotion towards the United States, it simply states a fact about the Federal Reserve's role."
+      }
+    ]
+  }
+]

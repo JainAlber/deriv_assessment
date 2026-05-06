@@ -1,0 +1,18 @@
+{
+  "failures": [
+    {
+      "source_url": "https://www.imf.org/en/News",
+      "stage": "fetch",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.imf.org/en/News",
+      "attempts": 3,
+      "timestamp": "2026-05-06T02:40:21.736427+00:00"
+    },
+    {
+      "source_url": "https://www.reuters.com/markets/currencies/",
+      "stage": "fetch",
+      "error": "HTTPError: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/markets/currencies/",
+      "attempts": 3,
+      "timestamp": "2026-05-06T02:40:30.573281+00:00"
+    }
+  ]
+}

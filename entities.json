@@ -1,0 +1,64 @@
+[
+  {
+    "entity_id": "e_000_eur_usd",
+    "canonical_name": "EUR/USD",
+    "entity_type": "currency_pair",
+    "aliases": [
+      "EURUSD",
+      "euro-dollar"
+    ],
+    "source_mentions": [
+      {
+        "content_id": "c_88016c8933_main",
+        "mention_text": "EURUSD%3DX",
+        "source_span": "https://finance.yahoo.com/quote/EURUSD%3DX/",
+        "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX/"
+      },
+      {
+        "content_id": "c_88016c8933_h4",
+        "mention_text": "EURUSD=X",
+        "source_span": "Recent News: EURUSD=X",
+        "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX/"
+      }
+    ],
+    "resolution_confidence": 0.9,
+    "low_confidence_flag": false
+  },
+  {
+    "entity_id": "e_001_federal_reserve",
+    "canonical_name": "Federal Reserve",
+    "entity_type": "central_bank",
+    "aliases": [
+      "the Fed",
+      "US central bank"
+    ],
+    "source_mentions": [
+      {
+        "content_id": "c_04c4092bbc_main",
+        "mention_text": "The Federal Reserve",
+        "source_span": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
+      }
+    ],
+    "resolution_confidence": 0.95,
+    "low_confidence_flag": false
+  },
+  {
+    "entity_id": "e_002_united_states",
+    "canonical_name": "United States",
+    "entity_type": "country",
+    "aliases": [
+      "US"
+    ],
+    "source_mentions": [
+      {
+        "content_id": "c_04c4092bbc_main",
+        "mention_text": "United States",
+        "source_span": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm"
+      }
+    ],
+    "resolution_confidence": 0.9,
+    "low_confidence_flag": false
+  }
+]

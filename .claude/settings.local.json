@@ -3,7 +3,9 @@
     "allow": [
       "Bash(claude doctor *)",
       "Bash(python3 *)",
-      "Bash(python -c \"import sys; print\\('python ->', sys.executable\\)\")"
+      "Bash(python -c \"import sys; print\\('python ->', sys.executable\\)\")",
+      "Bash(python -m py_compile pipeline.py)",
+      "Bash(python -m py_compile validate.py)"
     ]
   }
 }
